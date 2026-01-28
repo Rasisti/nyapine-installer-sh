@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+apk add xorg-server udisks2 xf86-input-libinput xf86-input-evdev xf86-video-vesa xinit xterm vim fluxbox dbus font-dejavu font-noto adwaita-icon-theme pcmanfm mpv feh gvfs firefox-esr alacritty geany tint2 flatpak gnome-software slim doas
+
 # =====================================
 # Alpine Fluxbox Desktop Configuration
 # Run as root AFTER installing packages
