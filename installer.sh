@@ -20,7 +20,6 @@ wget -O "$WALLPAPER_PATH" "$WALLPAPER_URL"
 echo "==> Configuring SLiM for Fluxbox"
 if [ -f /etc/slim.conf ]; then
   sed -i 's|^#*login_cmd.*|login_cmd exec /bin/sh - ~/.xinitrc|' /etc/slim.conf
-  sed -i 's|^#*default_user.*|default_user nobody|' /etc/slim.conf
 fi
 
 mkdir -p /etc/slim.conf.d
